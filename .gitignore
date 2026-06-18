@@ -1,0 +1,44 @@
+# Secrets and local environment
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Virtual environments
+myvenv/
+venv/
+.venv/
+env/
+
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# App runtime data
+data/
+uploads/
+memory/
+vector_store/chroma_db/
+
+# Local/generated databases and indexes
+*.sqlite
+*.sqlite3
+*.db
+*.faiss
+*.bin
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Accidentally-created scaffold folders
+{data/
+{vector_store,pages,utils,assets}/
+
+# Nested sample/other project in this workspace
+AI_Data_Analyst_Copilot/
