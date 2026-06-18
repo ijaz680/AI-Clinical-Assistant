@@ -160,6 +160,3 @@ MIT License — free to use and modify.
 
 ---
 
-## 👨‍💻 Author
-
-Built as a Generative AI project with Groq + LLaMA 3.3 + Streamlit.
